@@ -1,0 +1,68 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    background: white;
+    font-family: Arial;
+    background-image: url(https://catherineasquithgallery.com/uploads/posts/2023-01/1674272855_catherineasquithgallery-com-p-sero-goluboi-fon-odnotonnii-foto-1.jpg);
+}
+.menu {
+    background: green;
+    width: 1527px;
+}
+@media (max-width:700px) {
+    .menu {
+        text-align: center;
+        width:100%;
+        background: red;
+    }
+    .menu ul {
+        width: 575px;
+       height: 70px ;
+        list-style: none;
+        margin:0 ;
+        padding:0 ;
+        display: flex;
+        justify-content: center;
+     }
+}
+.menu ul {
+   width: 1547px;
+  height: 70px ;
+   list-style: none;
+   margin:0 ;
+   padding:0 ;
+   display: flex;
+   justify-content: center;
+}
+.menu a {
+    text-decoration:none ;
+    color: white;
+    font-weight:bold ;
+    display: flex;
+    padding: 20px 50px;
+    font-size: 15px;
+}
+h1 {
+    text-align: center;
+}
+img {
+    width: 300px;
+}
+.flexbox {
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;
+}
+.flexbox div {
+    margin-top:7px ;
+}
+.footer {
+    background-image: url(https://phonoteka.org/uploads/posts/2022-01/thumbs/1643225198_2-phonoteka-org-p-ochen-chernii-fon-2.jpg);
+    position: relative;
+    bottom: 0;
+    left: 0;
+    width: 1520px;
+    display: flex;
+    height: 50px;
+}
